@@ -1,0 +1,38 @@
+{
+  "ContentCreatorName": "Imaging Data Commons",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation of prostate lesion X",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "BodyPartExamined": "PROSTATE",
+  "segmentAttributes": [
+  [
+  {
+  "labelID": 1,
+  "recommendedDisplayRGBValue": [
+    168,
+    50,
+    50
+  ],
+  "SegmentDescription": "Prostate lesion X converted from STL",
+  "SegmentLabel" : "Lesion X",
+  "SegmentAlgorithmType": "MANUAL",
+  "SegmentedPropertyCategoryCodeSequence": {
+  "CodeValue": "49755003",
+  "CodingSchemeDesignator": "SCT",
+  "CodeMeaning": "Morphologically Abnormal Structure"
+  },
+  "SegmentedPropertyTypeCodeSequence": {
+  "CodeValue": "52988006",
+  "CodingSchemeDesignator": "SCT",
+  "CodeMeaning": "Lesion"
+  }
+  }
+
+  ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi"
+}

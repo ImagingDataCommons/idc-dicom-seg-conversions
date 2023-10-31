@@ -1,0 +1,33 @@
+{
+  "ContentCreatorName": "Imaging Data Commons",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation of prostate",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "BodyPartExamined": "PROSTATE",
+  "segmentAttributes": [
+  [
+  {
+  "labelID": 1,
+  "SegmentLabel" : "Prostate",
+  "SegmentDescription": "Prostate segmentations converted from STL",
+  "SegmentAlgorithmType": "SEMIAUTOMATIC",
+  "SegmentAlgorithmName": "PROFUSE",
+  "SegmentedPropertyCategoryCodeSequence": {
+  "CodeValue": "123037004",
+  "CodingSchemeDesignator": "SCT",
+  "CodeMeaning": "Anatomical Structure"
+  },
+  "SegmentedPropertyTypeCodeSequence": {
+  "CodeValue": "41216001",
+  "CodingSchemeDesignator": "SCT",
+  "CodeMeaning": "Prostate"
+  }
+  }
+  ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi"
+}
