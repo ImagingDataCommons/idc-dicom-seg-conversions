@@ -24,9 +24,9 @@ Contains example of slicer script used to convert STL files into labelmaps with 
 
 ## Notebooks
 
-main_stl_seg_to_dcm.ipynb notebook gives an overview of the conversion steps and how to reproduce the results.
+[main_stl_seg_to_dcm.ipynb](https://github.com/ImagingDataCommons/prostate_mri_us_biopsy_dcm_conversion/blob/main/main_stl_seg_to_dcm.ipynb) notebook gives an overview of the conversion steps and how to reproduce the results.
 
-demo_conversion_stl_to_dicom.ipynb is supporting the implementation of the M3D DICOM modality in [QIICR](https://github.com/QIICR/QuantitativeReporting) for [Slicer3D](https://www.slicer.org/) use.
+[demo_conversion_stl_to_dicom.ipynb](https://github.com/ImagingDataCommons/prostate_mri_us_biopsy_dcm_conversion/blob/main/demo_conversion_stl_to_dicom.ipynb) is supporting the implementation of the M3D DICOM modality in [QIICR](https://github.com/QIICR/QuantitativeReporting) for [Slicer3D](https://www.slicer.org/) use.
 
 # Conversion tools used
 
