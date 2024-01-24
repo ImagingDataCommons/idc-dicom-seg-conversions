@@ -22,9 +22,11 @@ Contains segments metadata.json files used as input for conversion to DICOM SEG,
 ## Utils folder
 Contains example of slicer script used to convert STL files into labelmaps with reference T2W images.
 
-## Notebook 
+## Notebooks
 
-DEMO_Conversion_STL_TO_DICOM.ipynb notebook gives an overview of the conversion steps and how to reproduce the results.
+main_stl_seg_to_dcm.ipynb notebook gives an overview of the conversion steps and how to reproduce the results.
+
+demo_conversion_stl_to_dicom.ipynb is supporting the implementation of the M3D DICOM modality in [QIICR](https://github.com/QIICR/QuantitativeReporting) for [Slicer3D](https://www.slicer.org/) use.
 
 # Conversion tools used
 
