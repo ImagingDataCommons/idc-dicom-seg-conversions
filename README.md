@@ -22,11 +22,21 @@ Contains segments metadata.json files used as input for conversion to DICOM SEG,
 ## Utils folder
 Contains example of slicer script used to convert STL files into labelmaps with reference T2W images.
 
+The conversion Slicer script is also available in our demo github repository, [here](https://github.com/ImagingDataCommons/prostate_mri_us_biopsy_dcm_conversion/blob/main/utils/convert_STL_labelmap_slicer_script.py).
+
+The terminal command run over the Slicer-based python script is provided below as an example:
+
+`<path to Slicer executable> --no-splash --no-main-window --python-script "<root-folder-path-to-script>/convert_STL_labelmap_slicer_script.py.py"`
+
+The script has pre-defined paths for the location of the STL files and the output labelmaps files, so please change these paths inside the script itself.
+
+Mentioned scripts iterates over the STL files and finds the reference T2W image **.nrrd** file, used as a reference node for the output labelmap segmentations. Resulting labelmaps have the same geometry and orientation as the segmented MRI T2W image.
+
 ## Notebooks
 
-main_stl_seg_to_dcm.ipynb notebook gives an overview of the conversion steps and how to reproduce the results.
+[main_stl_seg_to_dcm.ipynb](https://github.com/ImagingDataCommons/prostate_mri_us_biopsy_dcm_conversion/blob/main/main_stl_seg_to_dcm.ipynb) notebook gives an overview of the conversion steps and how to reproduce the results.
 
-demo_conversion_stl_to_dicom.ipynb is supporting the implementation of the M3D DICOM modality in [QIICR](https://github.com/QIICR/QuantitativeReporting) for [Slicer3D](https://www.slicer.org/) use.
+[demo_conversion_stl_to_dicom.ipynb](https://github.com/ImagingDataCommons/prostate_mri_us_biopsy_dcm_conversion/blob/main/demo_conversion_stl_to_dicom.ipynb) is supporting the implementation of the M3D DICOM modality in [QIICR](https://github.com/QIICR/QuantitativeReporting) for [Slicer3D](https://www.slicer.org/) use.
 
 # Conversion tools used
 
