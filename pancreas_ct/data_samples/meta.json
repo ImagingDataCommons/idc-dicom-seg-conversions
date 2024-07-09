@@ -1,0 +1,37 @@
+{
+  "ContentCreatorName": "Anonymous",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation of pancreas",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "BodyPartExamined": "ABDOMEN",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentLabel": "Pancreas",
+        "SegmentDescription": "Segmentation of pancreas derived from manual annotations",
+        "SegmentAlgorithmType": "MANUAL",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "15776009",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Pancreas"
+        },
+        "recommendedDisplayRGBValue": [
+          252,
+          127,
+          0
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi"
+}
